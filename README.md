@@ -40,11 +40,11 @@ A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robon
 
 <div align="center">
 
-### Gripper on SO-ARM100
+### Gripper on SO-ARM101
 
-![Gripper mounted on SO-ARM100](assets/images/specification/07-gripper-on-so-arm100.jpg)
+![Gripper mounted on SO-ARM101](assets/images/specification/07-gripper-on-so-arm100.jpg)
 
-*Follower gripper integrated with SO-ARM100 robot arm*
+*Follower gripper integrated with SO-ARM101 robot arm*
 
 ### Dimensions
 
