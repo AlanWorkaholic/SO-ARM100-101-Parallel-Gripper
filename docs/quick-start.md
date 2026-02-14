@@ -60,7 +60,7 @@ Order parts from the [Bill of Materials](bom.md):
 | Threaded rods M3x150mm | 2 | ~$8 |
 | Fasteners (M3, M4 screws/nuts) | various | ~$3 |
 
-**Total estimated cost: ~$76** (excluding 3D printing)
+**Total estimated cost: ~$70** (excluding 3D printing)
 
 ---
 

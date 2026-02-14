@@ -1,4 +1,4 @@
-# SO ARM 100/101 Parallel Gripper
+# SO ARM 100/101 Parallel Follower Gripper
 
 ## Overview
 
@@ -11,8 +11,8 @@ Lightweight 3D-printed end-effector designed by **Robonine Team** for the open-s
 ## Key Features
 
 - Open-source design
-- BOM cost for one gripper: ~$76
-- Can be printed on consumer-grade FDM 3D printers
+- BOM cost for one gripper: ~$70
+- Can be printed during one cycle on a consumer-grade FDM 3D printer
 - Compatible with popular video cameras:
   - Orbbec Gemini 2
   - RealSense D405, D435/D435i, D455
@@ -23,26 +23,31 @@ Lightweight 3D-printed end-effector designed by **Robonine Team** for the open-s
 
 ## Dimensions
 
+### 3D Overview
+
+![Gripper dimensions — isometric view](../assets/images/specification/08-gripper-dimensions-3d.png)
+
+*Isometric view showing overall dimensions: 128 × 109 × 130.5 mm, full stroke 76 mm*
+
 ### Closed Gripper
 
 ![Closed gripper dimensions](../assets/images/specification/01-closed-gripper-dimensions.jpg)
 
-*Closed gripper showing height (108.4 mm) and length (123.5 mm)*
+*Closed gripper showing height and length*
 
 ### Open Gripper
 
 ![Open gripper dimensions](../assets/images/specification/02-open-gripper-dimensions.jpg)
 
-*Open gripper showing full stroke width (100.5 mm), frame width (102 mm), and jaw dimensions*
+*Open gripper showing full stroke width, frame width, and jaw dimensions*
 
 | Dimension | Value |
 |-----------|-------|
-| Length (closed) | 123.5 mm |
-| Height | 108.4 mm |
+| Length | 128 mm |
+| Height | 109 mm |
+| Depth | 130.5 mm |
 | Frame width | 102 mm |
-| Full stroke | 100.5 mm |
-| Jaw height | 21.4 mm |
-| Jaw thickness | 8.5 mm |
+| Full stroke | 76 mm |
 
 ---
 
@@ -60,15 +65,15 @@ Lightweight 3D-printed end-effector designed by **Robonine Team** for the open-s
 
 ---
 
-## Performance Specifications
+## Gripper Parameters
 
 | Parameter | Follower Gripper |
 |-----------|------------------|
-| Assembly mass (PLA, 30% infill) | 200 g (excluding camera) |
-| Maximum gripping force | 500 N |
-| Maximum gripping speed | 60 mm/s |
-| Full stroke | 100.5 mm |
-| Repeatability | ±0.05 mm |
+| Assembly mass (PLA, 30% infill) | 250 g (excluding camera) |
+| Maximum gripping force | 150 N |
+| Maximum gripping speed | 30 mm/s |
+| Full stroke | 76 mm |
+| Repeatability | 0.1 mm |
 | DOF | 1 |
 
 ---
@@ -84,11 +89,11 @@ Lightweight 3D-printed end-effector designed by **Robonine Team** for the open-s
 | Guides | Round stainless steel rods (Ø6 mm) |
 | Driver | Feetech servo actuator STS3215 |
 
-### Servo Motor (Feetech STS3215)
+### Servo Parameters (Feetech STS3215)
 
 | Parameter | Value |
 |-----------|-------|
-| Operating Voltage Range | 4-14V |
+| Operating Voltage Range | 12V |
 | Speed (no load) | 45 RPM |
 | Running current (no load) | 180 mA |
 | Stall torque (at locked) | 30 kg·cm |
@@ -108,23 +113,15 @@ Lightweight 3D-printed end-effector designed by **Robonine Team** for the open-s
 
 The Follower gripper is compatible with various cameras via interchangeable camera holder.
 
-### IMX335 5MP USB Camera
+![Different cameras mounted on gripper](../assets/images/specification/09-camera-types.png)
 
-![Gripper with IMX335 5MP USB Camera](../assets/images/specification/04-camera-imx335-5mp.jpg)
+*Different cameras mounted on gripper (left to right): RealSense, USB camera module, Orbbec Gemini 2*
 
-*Compact USB camera module for basic vision tasks*
+### Individual Camera Views
 
-### Orbbec Gemini 2
-
-![Gripper with Orbbec Gemini 2 Camera](../assets/images/specification/05-camera-orbbec-gemini2.jpg)
-
-*Depth camera for 3D perception and object detection*
-
-### Intel RealSense D405
-
-![Gripper with RealSense D405 Camera](../assets/images/specification/06-camera-realsense-d405.jpg)
-
-*High-precision depth camera for close-range applications*
+| IMX335 5MP USB | Orbbec Gemini 2 | RealSense D405 |
+|----------------|-----------------|----------------|
+| ![IMX335](../assets/images/specification/04-camera-imx335-5mp.jpg) | ![Orbbec](../assets/images/specification/05-camera-orbbec-gemini2.jpg) | ![RealSense](../assets/images/specification/06-camera-realsense-d405.jpg) |
 
 ### Supported Cameras
 

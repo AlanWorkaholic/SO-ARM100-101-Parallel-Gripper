@@ -9,7 +9,7 @@
 A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robonine.com)** for the open-source SO-ARM100/101 robotic platform.
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](LICENSE)
-[![Cost: ~$76](https://img.shields.io/badge/Cost-~%2476-green.svg)](docs/bom.md)
+[![Cost: ~$70](https://img.shields.io/badge/Cost-~%2470-green.svg)](docs/bom.md)
 [![Assembly: 30min](https://img.shields.io/badge/Assembly-30%20min-orange.svg)](docs/assembly-guide.md)
 
 ---
@@ -25,13 +25,13 @@ A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robon
 
 | Feature | Description |
 |---------|-------------|
-| **500N Gripping Force** | Powerful parallel jaw mechanism |
-| **60 mm/s Speed** | Fast gripper operation |
-| **100.5mm Full Stroke** | Wide opening for various objects |
-| **±0.05mm Repeatability** | High precision positioning |
+| **150N Gripping Force** | Reliable parallel jaw mechanism |
+| **30 mm/s Speed** | Gripper operation speed |
+| **76mm Full Stroke** | Wide opening for various objects |
+| **0.1mm Repeatability** | High precision positioning |
 | **Camera Compatible** | Supports RealSense, Orbbec, USB cameras |
 | **3D Printable** | All parts print on standard FDM printers |
-| **~$76 Total Cost** | Affordable open-source solution |
+| **~$70 Total Cost** | Affordable open-source solution |
 | **Easy Assembly** | 30-45 minutes with basic tools |
 
 ---
@@ -51,7 +51,7 @@ A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robon
 | Closed | Open |
 |--------|------|
 | ![Closed gripper](assets/images/specification/01-closed-gripper-dimensions.jpg) | ![Open gripper](assets/images/specification/02-open-gripper-dimensions.jpg) |
-| Height: 108.4mm, Length: 123.5mm | Full stroke: 100.5mm |
+| Length: 128mm, Height: 109mm | Full stroke: 76mm |
 
 </div>
 
@@ -59,32 +59,31 @@ A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robon
 
 ## 📋 Specifications
 
-### Performance
+### Gripper Parameters
 
 | Parameter | Value |
 |-----------|-------|
-| Maximum gripping force | **500 N** |
-| Maximum gripping speed | **60 mm/s** |
-| Full stroke | **100.5 mm** |
-| Repeatability | **±0.05 mm** |
-| Assembly mass (PLA, 30% infill) | **200 g** |
+| Maximum gripping force | **150 N** |
+| Maximum gripping speed | **30 mm/s** |
+| Full stroke | **76 mm** |
+| Repeatability | **0.1 mm** |
+| Assembly mass (PLA, 30% infill) | **250 g** |
 | DOF | **1** |
 
 ### Dimensions
 
 | Dimension | Value |
 |-----------|-------|
-| Length (closed) | 123.5 mm |
-| Height | 108.4 mm |
+| Length | 128 mm |
+| Height | 109 mm |
+| Depth | 130.5 mm |
 | Frame width | 102 mm |
-| Jaw height | 21.4 mm |
-| Jaw thickness | 8.5 mm |
 
-### Servo Motor (Feetech STS3215)
+### Servo Parameters (Feetech STS3215)
 
 | Parameter | Value |
 |-----------|-------|
-| Operating Voltage | 4-14V |
+| Operating Voltage | 12V |
 | Stall torque | 30 kg·cm |
 | Speed (no load) | 45 RPM |
 | Encoder | Absolute magnetic 12-bit |
@@ -118,7 +117,7 @@ The gripper supports multiple cameras via interchangeable camera holder:
 
 ## 💰 Bill of Materials
 
-**Total Cost: ~$76** ([Full BOM with Amazon links](docs/bom.md))
+**Total Cost: ~$70** ([Full BOM with Amazon links](docs/bom.md))
 
 | Category | Components | Est. Cost |
 |----------|------------|-----------|
