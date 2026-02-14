@@ -48,10 +48,9 @@ A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robon
 
 ### Dimensions
 
-| Closed | Open |
-|--------|------|
-| ![Closed gripper](assets/images/specification/01-closed-gripper-dimensions.jpg) | ![Open gripper](assets/images/specification/02-open-gripper-dimensions.jpg) |
-| Length: 128mm, Height: 109mm | Full stroke: 76mm |
+![Gripper dimensions](assets/images/specification/08-gripper-dimensions-3d.png)
+
+*128 × 109 × 130.5 mm, full stroke 76 mm*
 
 </div>
 
@@ -107,9 +106,9 @@ The gripper supports multiple cameras via interchangeable camera holder:
 
 <div align="center">
 
-| IMX335 | Orbbec Gemini 2 | RealSense D405 |
-|--------|-----------------|----------------|
-| ![IMX335](assets/images/specification/04-camera-imx335-5mp.jpg) | ![Orbbec](assets/images/specification/05-camera-orbbec-gemini2.jpg) | ![RealSense](assets/images/specification/06-camera-realsense-d405.jpg) |
+![Different cameras mounted on gripper](assets/images/specification/09-camera-types.png)
+
+*RealSense, USB camera module, Orbbec Gemini 2*
 
 </div>
 

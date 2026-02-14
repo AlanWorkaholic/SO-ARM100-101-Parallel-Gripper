@@ -29,18 +29,6 @@ Lightweight 3D-printed end-effector designed by **Robonine Team** for the open-s
 
 *Isometric view showing overall dimensions: 128 × 109 × 130.5 mm, full stroke 76 mm*
 
-### Closed Gripper
-
-![Closed gripper dimensions](../assets/images/specification/01-closed-gripper-dimensions.jpg)
-
-*Closed gripper showing height and length*
-
-### Open Gripper
-
-![Open gripper dimensions](../assets/images/specification/02-open-gripper-dimensions.jpg)
-
-*Open gripper showing full stroke width, frame width, and jaw dimensions*
-
 | Dimension | Value |
 |-----------|-------|
 | Length | 128 mm |
@@ -116,12 +104,6 @@ The Follower gripper is compatible with various cameras via interchangeable came
 ![Different cameras mounted on gripper](../assets/images/specification/09-camera-types.png)
 
 *Different cameras mounted on gripper (left to right): RealSense, USB camera module, Orbbec Gemini 2*
-
-### Individual Camera Views
-
-| IMX335 5MP USB | Orbbec Gemini 2 | RealSense D405 |
-|----------------|-----------------|----------------|
-| ![IMX335](../assets/images/specification/04-camera-imx335-5mp.jpg) | ![Orbbec](../assets/images/specification/05-camera-orbbec-gemini2.jpg) | ![RealSense](../assets/images/specification/06-camera-realsense-d405.jpg) |
 
 ### Supported Cameras
 
