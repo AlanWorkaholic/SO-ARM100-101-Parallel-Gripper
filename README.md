@@ -73,10 +73,9 @@ A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robon
 
 | Dimension | Value |
 |-----------|-------|
-| Length | 128 mm |
-| Height | 109 mm |
+| Width | 128 mm |
 | Depth | 130.5 mm |
-| Frame width | 102 mm |
+| Height | 109 mm |
 
 ### Servo Parameters (Feetech STS3215)
 
@@ -122,7 +121,7 @@ The gripper supports multiple cameras via interchangeable camera holder:
 |----------|------------|-----------|
 | Electronics | Feetech STS3215 servo + Bus Adapter | ~$40 |
 | Bearings | MR106ZZ (2) + LM6UU (4) | ~$6 |
-| Rods | D6×125mm (2) + D6×150mm (2) + M3×150mm (2) | ~$10 |
+| Rods | D6×125mm (2) | ~$4 |
 | 3D Printing | 5 parts (~200-300g PLA) | ~$17 |
 | Fasteners | M3/M4 screws, nuts, set screws | ~$3 |
 
@@ -223,8 +222,6 @@ python software/python/gripper_control.py
 - 2× MR106ZZ Bearings (6×10×3 mm)
 - 4× LM6UU Linear Bearings (6×12×19 mm)
 - 2× Steel Rods D6×125 mm
-- 2× Steel Rods D6×150 mm
-- 2× Threaded Rods M3×150 mm
 
 ### Fasteners
 - 8× M3×8 DIN 7991 screws

@@ -31,10 +31,9 @@ Lightweight 3D-printed end-effector designed by **Robonine Team** for the open-s
 
 | Dimension | Value |
 |-----------|-------|
-| Length | 128 mm |
-| Height | 109 mm |
+| Width | 128 mm |
 | Depth | 130.5 mm |
-| Frame width | 102 mm |
+| Height | 109 mm |
 | Full stroke | 76 mm |
 
 ---
