@@ -185,10 +185,12 @@ python software/python/gripper_control.py
 │       ├── assembly/          # Assembly step images
 │       └── specification/     # Technical drawings
 ├── docs/
-│   ├── assembly-guide.md      # Step-by-step assembly
-│   ├── bom.md          # Bill of materials with links
-│   ├── quick-start.md         # Getting started guide
-│   └── specifications.md      # Technical specifications
+│   ├── assembly-guide.md                # Step-by-step assembly
+│   ├── bom.md                           # Bill of materials with links
+│   ├── Parallel gripper by Robo9.pdf    # Gripper product specification
+│   ├── quick-start.md                   # Getting started guide
+│   ├── SO-ARM101 by Robo9.pdf           # SO-ARM101 product specification
+│   └── specifications.md               # Technical specifications
 ├── models/
 │   ├── parts/                              # Individual STL files
 │   └── Follower_Gripper_180x180_BedSize.STL  # Complete assembly (180×180mm bed)
@@ -208,6 +210,8 @@ python software/python/gripper_control.py
 | [Bill of Materials](docs/bom.md) | Parts list with Amazon links |
 | [Specifications](docs/specifications.md) | Technical details |
 | [3D Models](models/README.md) | Print settings and files |
+| [Parallel Gripper Product Spec (PDF)](docs/Parallel%20gripper%20by%20Robo9.pdf) | Parallel gripper product specification by Robo9 |
+| [SO-ARM101 Product Spec (PDF)](docs/SO-ARM101%20by%20Robo9.pdf) | SO-ARM101 robot arm product specification by Robo9 |
 
 ---
 

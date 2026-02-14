@@ -159,6 +159,8 @@ Now you can:
 
 - 📖 Read the [Specifications](specifications.md)
 - 📖 Check the [Assembly Guide](assembly-guide.md)
+- 📄 [Parallel Gripper Product Spec (PDF)](Parallel%20gripper%20by%20Robo9.pdf)
+- 📄 [SO-ARM101 Product Spec (PDF)](SO-ARM101%20by%20Robo9.pdf)
 - 🐛 Report issues on GitHub
 
 ---

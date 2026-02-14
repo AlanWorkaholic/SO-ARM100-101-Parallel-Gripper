@@ -166,4 +166,11 @@ The gripper can be independently integrated into numerous robotic systems thanks
 
 ---
 
+## Product Specification Documents
+
+- [Parallel Gripper Product Specification (PDF)](Parallel%20gripper%20by%20Robo9.pdf) — Full product specification for the parallel gripper by Robo9
+- [SO-ARM101 Product Specification (PDF)](SO-ARM101%20by%20Robo9.pdf) — Full product specification for the SO-ARM101 robot arm by Robo9
+
+---
+
 *Specifications subject to change based on actual implementation and testing*
