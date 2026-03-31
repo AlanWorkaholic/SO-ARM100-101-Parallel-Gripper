@@ -120,7 +120,7 @@ The gripper supports multiple cameras via interchangeable camera holder:
 | Category | Components | Est. Cost |
 |----------|------------|-----------|
 | Electronics | Feetech STS3215 servo + Bus Adapter | ~$40 |
-| Bearings | MR106ZZ (2) + LM6UU (4) | ~$6 |
+| Bearings | MF106ZZ (2) + LM6UU (4) | ~$6 |
 | Rods | D6×125mm (2) | ~$4 |
 | 3D Printing | 5 parts (~200-300g PLA) | ~$17 |
 | Fasteners | M3/M4 screws, nuts, set screws | ~$3 |
@@ -135,11 +135,12 @@ Download STL files from [`models/parts/`](models/). Compatible with popular prin
 
 | Part | Qty | Settings |
 |------|:---:|----------|
-| Main frame (RB9.01.060.015) | 1 | 20% infill |
-| Clamp (RB9.01.060.021) | 2 | 20% infill |
-| Gear rack (RB9.01.060.030) | 2 | 30% infill |
-| Gear (RB9.01.060.041) | 1 | 30% infill |
-| Camera holder (RB9.01.060.073) | 1 | 20% infill |
+| Main frame (RB9.01.061.010) | 1 | 20% infill |
+| Clamp (RB9.01.061.020) | 2 | 20% infill |
+| Gear rack (RB9.01.061.030) | 2 | 30% infill |
+| Gear (RB9.01.061.040) | 1 | 30% infill |
+| Camera holder (RB9.01.060.074) | 1 | 20% infill |
+| Holder (RB9.01.060.080) | 1 | 20% infill |
 
 ### 2. Order Components (1-2 days)
 
@@ -152,7 +153,7 @@ Follow the [Assembly Guide](docs/assembly-guide.md) with step-by-step images:
 1. Install linear bearings in clamps
 2. Mount gear to servo
 3. Attach servo to main frame
-4. Install MR106ZZ bearings
+4. Install MF106ZZ bearings
 5. Add rods and clamps
 6. Attach gear racks
 7. Insert servo cable
@@ -219,15 +220,15 @@ python software/python/gripper_control.py
 - 1× Bus Servo Adapter Board (Waveshare)
 
 ### Mechanical
-- 2× MR106ZZ Bearings (6×10×3 mm)
+- 2× MF106ZZ Bearings (6×10×3 mm)
 - 4× LM6UU Linear Bearings (6×12×19 mm)
 - 2× Steel Rods D6×125 mm
 
 ### Fasteners
-- 8× M3×8 DIN 7991 screws
+- 2× M3×8 DIN 7991 screws
 - 4× M3×20 DIN 7991 screws
 - 4× M3×50 DIN 912 screws
-- 2× M4×6 DIN 7991 screws
+- 2× M4×8 DIN 7991 screws
 - 4× M3 DIN 934 nuts
 - 4× M3×4 DIN 913 set screws
 
