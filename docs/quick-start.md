@@ -37,11 +37,12 @@ Get your Follower Gripper for SO-ARM101 up and running!
 - Any printer with bed ≥180×180mm
 
 **Parts to print:**
-- 1x Main frame (RB9.01.060.015)
-- 2x Clamp (RB9.01.060.021)
-- 2x Gear rack (RB9.01.060.030)
-- 1x Gear for gripper (RB9.01.060.041)
-- 1x Camera holder (RB9.01.060.073)
+- 1x Main frame (RB9.01.061.010)
+- 2x Clamp (RB9.01.061.020)
+- 2x Gear rack (RB9.01.061.030)
+- 1x Gear for gripper (RB9.01.061.040)
+- 1x Camera holder (RB9.01.060.074)
+- 1x Holder (RB9.01.060.080)
 
 ---
 
@@ -53,11 +54,9 @@ Order parts from the [Bill of Materials](bom.md):
 |-----------|:---:|-----------|
 | Feetech STS3215 servo | 1 | ~$29 |
 | Bus Servo Adapter Board | 1 | ~$11 |
-| MR106ZZ bearings (6x10x3mm) | 2 | ~$5 |
+| MF106ZZ bearings (10x6x3mm) | 2 | ~$5 |
 | LM6UU linear bearings | 4 | ~$9 |
 | Steel rods D6x125mm | 2 | ~$8 |
-| Steel rods D6x150mm | 2 | ~$9 |
-| Threaded rods M3x150mm | 2 | ~$8 |
 | Fasteners (M3, M4 screws/nuts) | various | ~$3 |
 
 **Total estimated cost: ~$70** (excluding 3D printing)
@@ -71,7 +70,7 @@ Follow the detailed [Assembly Guide](assembly-guide.md):
 1. **Install linear bearings** in clamps (5 min)
 2. **Mount gear** to servo with set screws (5 min)
 3. **Attach servo** to main frame (5 min)
-4. **Install MR106ZZ bearings** on main frame (5 min)
+4. **Install MF106ZZ bearings** on main frame (5 min)
 5. **Add rods and clamps** (5 min)
 6. **Attach gear racks** to clamps (5 min)
 7. **Insert servo cable** (2 min)

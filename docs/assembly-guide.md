@@ -14,7 +14,7 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 ![Clamp with linear bearings](../assets/images/assembly/01-clamp-with-linear-bearings.png)
 
 **Components needed:**
-- 2x Clamps (RB9.01.060.021)
+- 2x Clamps (RB9.01.061.020)
 - 4x LM6UU Linear Bearings (6x12x19 mm)
 
 **Instructions:**
@@ -31,13 +31,13 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 
 **Components needed:**
 - 1x Feetech STS3250 Servo
-- 1x Gear for Gripper (RB9.01.060.041)
+- 1x Gear for Gripper (RB9.01.061.040)
 - 1x Servo disk (from servo kit)
 - 1x Servo mounting screw M3x6 (from servo kit)
 - 4x Set Screw DIN 913 M3x4
 
 **Instructions:**
-1. Place Gear for Gripper on Servo disk and fix them together with 4x Set Screws M3x4. Pay attention that there is no gap between parts
+1. Place Gear for Gripper on Servo disk and tighten 4x Set Screws M3x4 in the direction from Servo disk to Gear. Make sure that no gap appears between Disk and Gear when tightening the screws.
 2. Mount the gear assembly onto the servo output shaft
 3. Secure with the screw M3x6 provided in the servo kit
 
@@ -48,13 +48,13 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 ![Servo mounted on main frame](../assets/images/assembly/03-servo-mounted-on-main-frame.png)
 
 **Components needed:**
-- 1x Main Frame (RB9.01.060.015)
+- 1x Main Frame (RB9.01.061.010)
 - 1x Assembled servo with gear
-- 4x Self-tapping screws (from servo kit)
+- 3x Self-tapping screws (from servo kit)
 
 **Instructions:**
 1. Position the servo on the main frame and align mounting holes
-2. Secure the servo using 4x self-tapping screws from the servo kit
+2. Secure the servo using 3x self-tapping screws from the servo kit
 
 ---
 
@@ -63,12 +63,12 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 ![Bearings installed on main frame](../assets/images/assembly/04-bearings-installed-on-main-frame.png)
 
 **Components needed:**
-- 2x MR106ZZ Bearings (6x10x3 mm)
-- 2x Self-tapping screws with a large head (from servo kit)
+- 2x MF106ZZ Bearings (10x6x3 mm)
+- 2x M4x8 DIN 7991 screws
 
 **Instructions:**
-1. Insert the 2x MR106ZZ bearings into their designated positions on the main frame
-2. Secure each bearing with self-tapping screw
+1. Insert the 2x MF106ZZ bearings into their designated positions on the main frame. Bearing flange should face up
+2. Secure each bearing with screw M4x8
 
 ---
 
@@ -97,14 +97,14 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 ![Gear racks top view](../assets/images/assembly/06-gear-racks-top-view.png)
 
 **Components needed:**
-- 2x Gear Racks (RB9.01.060.030)
-- 4x M3x8 DIN 7991 screws
+- 2x Gear Racks (RB9.01.061.030)
+- 2x M3x8 DIN 7991 screws
 
 **Instructions:**
 1. Position the gear racks on the back side of each clamp
 2. **Important**: Ensure clamps are symmetrically positioned from the main frame center
 3. The gear racks should engage properly with the drive gear
-4. Secure each gear rack with 2x M3x8 screws
+4. Secure each gear rack with screw M3x8
 
 ---
 
@@ -137,15 +137,15 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 ![Gripper holder attachment](../assets/images/assembly/09-gripper-holder-attachment.png)
 
 **Components needed:**
-- 1x Camera holder (RB9.01.060.073) or Servo plate (RB9.01.060.080)
-- 1x Parallel Gripper SO-ARM101
+- 1x Camera holder (RB9.01.060.074) or Holder (RB9.01.060.080)
+- 1x SO-ARM101
 - 4x M3x6 Screws (from servo kit)
 - 4x Self-tapping screws (from servo kit)
 
 **Instructions:**
-1. Depending on what type of Gripper you want to connect, attach Camera holder or Servo plate to the Wrist Joint horn and fix with 4x M3x6 screws
-2. Attach the Parallel Gripper to the Camera holder or Servo plate and fix with 4x self-tapping screws
-3. Connect cable from the Parallel Gripper to servo №5
+1. If you plan to use Gripper with camera then attach Camera holder, if you plan to use Gripper without camera then attach Holder to the Wrist Joint horn of SO-ARM101 and fix with 4x M3x6 screws
+2. Attach the Parallel Gripper to the Camera holder or Holder and fix with 4x self-tapping screws
+3. Connect cable from the Parallel Gripper to servo №5 of SO-ARM101
 
 ---
 
