@@ -1,6 +1,6 @@
 # CoppeliaSim
 
-**Status: Ready (external simulator)**
+**Status: Not tested (external simulator)**
 
 CoppeliaSim runs externally and communicates with ROS2 via `topic_based_ros2_control`. You run CoppeliaSim separately and launch the ROS2 side with `sim:=coppeliasim`.
 

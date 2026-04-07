@@ -9,8 +9,8 @@ ROS2 simulation support for the SO-ARM-101 robotic arm with parallel gripper. A 
 | [Gazebo (gz-sim)](gazebo/README.md) | Ready | `docker compose run gazebo` | Embedded in simulator |
 | [MuJoCo](mujoco/README.md) | Ready | `docker compose run mujoco` | External (`ros2_control_node`) |
 | [Webots](webots/README.md) | Unstable | `docker compose run webots` | Embedded in driver |
-| [CoppeliaSim](coppeliasim/README.md) | Ready | N/A (external sim) | External (`ros2_control_node`) |
-| [NVIDIA Isaac Sim](isaac_sim/README.md) | Ready | N/A (external sim) | External (`ros2_control_node`) |
+| [CoppeliaSim](coppeliasim/README.md) | Not tested | N/A (external sim) | External (`ros2_control_node`) |
+| [NVIDIA Isaac Sim](isaac_sim/README.md) | Not tested | N/A (external sim) | External (`ros2_control_node`) |
 
 ## Architecture
 

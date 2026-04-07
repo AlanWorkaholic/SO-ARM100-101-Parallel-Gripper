@@ -255,8 +255,8 @@ The SO-ARM101 can be simulated in 5 physics engines using a ROS2 description pac
 | [Gazebo](simulation/gazebo/README.md) | Ready | `docker compose run gazebo` |
 | [MuJoCo](simulation/mujoco/README.md) | Ready | `docker compose run mujoco` |
 | [Webots](simulation/webots/README.md) | Unstable | `docker compose run webots` |
-| [CoppeliaSim](simulation/coppeliasim/README.md) | Ready | External simulator |
-| [NVIDIA Isaac Sim](simulation/isaac_sim/README.md) | Ready | External simulator |
+| [CoppeliaSim](simulation/coppeliasim/README.md) | Not tested | External simulator |
+| [NVIDIA Isaac Sim](simulation/isaac_sim/README.md) | Not tested | External simulator |
 
 **Quick start (Docker):**
 

@@ -1,6 +1,6 @@
 # NVIDIA Isaac Sim
 
-**Status: Ready (external simulator)**
+**Status: Not tested (external simulator)**
 
 Isaac Sim runs externally and communicates with ROS2 via `topic_based_ros2_control`. You run Isaac Sim separately and launch the ROS2 side with `sim:=isaac`.
 
