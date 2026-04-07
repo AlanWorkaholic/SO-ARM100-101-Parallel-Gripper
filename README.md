@@ -192,6 +192,14 @@ python software/python/gripper_control.py
 ├── models/
 │   ├── parts/                              # Individual STL files
 │   └── Follower_Gripper_180x180_BedSize.STL  # Complete assembly (180×180mm bed)
+├── simulation/
+│   ├── README.md                  # Simulation overview
+│   ├── gazebo/                    # Gazebo guide
+│   ├── mujoco/                    # MuJoCo guide
+│   ├── webots/                    # Webots guide
+│   ├── coppeliasim/               # CoppeliaSim guide
+│   ├── isaac_sim/                 # Isaac Sim guide
+│   └── so_arm_101_description/    # ROS2 package (URDF, launch, Docker)
 ├── software/
 │   └── python/                # Control software
 └── examples/                  # Usage examples
@@ -235,6 +243,29 @@ python software/python/gripper_control.py
 ### Tools Required
 - Phillips head screwdriver
 - Hex keys M3 and M4
+
+---
+
+## 🖥️ Simulation
+
+The SO-ARM101 can be simulated in 5 physics engines using a ROS2 description package with a single parameterized URDF. No ROS2 installation required -- Docker handles everything.
+
+| Simulator | Status | Docker |
+|-----------|--------|--------|
+| [Gazebo](simulation/gazebo/README.md) | Ready | `docker compose run gazebo` |
+| [MuJoCo](simulation/mujoco/README.md) | Ready | `docker compose run mujoco` |
+| [Webots](simulation/webots/README.md) | Unstable | `docker compose run webots` |
+| [CoppeliaSim](simulation/coppeliasim/README.md) | Ready | External simulator |
+| [NVIDIA Isaac Sim](simulation/isaac_sim/README.md) | Ready | External simulator |
+
+**Quick start (Docker):**
+
+```bash
+cd simulation/so_arm_101_description
+docker compose run gazebo    # or mujoco, webots
+```
+
+See the [Simulation Guide](simulation/README.md) for full setup, architecture details, and robot commanding.
 
 ---
 
