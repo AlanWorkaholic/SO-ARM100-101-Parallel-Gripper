@@ -4,12 +4,12 @@ repos:
     rev: v4.6.0
     hooks:
       - id: trailing-whitespace
-        exclude: '\.stl$|\.obj$|\.STL$'
+        exclude: '\.stl$|\.obj$|\.STL$|\.STEP$|\.step$'
       - id: end-of-file-fixer
-        exclude: '\.stl$|\.obj$|\.STL$'
+        exclude: '\.stl$|\.obj$|\.STL$|\.STEP$|\.step$'
       - id: mixed-line-ending
         args: ['--fix=lf']
-        exclude: '\.stl$|\.obj$|\.STL$'
+        exclude: '\.stl$|\.obj$|\.STL$|\.STEP$|\.step$'
       - id: check-yaml
       - id: check-xml
       - id: check-added-large-files
