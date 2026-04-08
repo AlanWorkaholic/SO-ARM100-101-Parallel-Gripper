@@ -94,4 +94,4 @@ We welcome new examples! Please:
 
 ---
 
-**Happy coding!** 🤖 
+**Happy coding!** 🤖

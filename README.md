@@ -14,7 +14,7 @@ A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robon
 
 ---
 
-**Questions? We're here to help!**  
+**Questions? We're here to help!**
 📩 Email: [hello@robonine.com](mailto:hello@robonine.com)
 
 </div>
@@ -192,6 +192,14 @@ python software/python/gripper_control.py
 ├── models/
 │   ├── parts/                              # Individual STL files
 │   └── Follower_Gripper_180x180_BedSize.STL  # Complete assembly (180×180mm bed)
+├── simulation/
+│   ├── README.md                  # Simulation overview
+│   ├── gazebo/                    # Gazebo guide
+│   ├── mujoco/                    # MuJoCo guide
+│   ├── webots/                    # Webots guide
+│   ├── coppeliasim/               # CoppeliaSim guide
+│   ├── isaac_sim/                 # Isaac Sim guide
+│   └── so_arm_101_description/    # ROS2 package (URDF, launch, Docker)
 ├── software/
 │   └── python/                # Control software
 └── examples/                  # Usage examples
@@ -238,6 +246,37 @@ python software/python/gripper_control.py
 
 ---
 
+## 🖥️ Simulation
+
+The SO-ARM101 can be simulated in 5 physics engines using a ROS2 description package with a single parameterized URDF. No ROS2 installation required -- Docker handles everything.
+
+<div align="center">
+
+| Gazebo (Ignition Fortress) | MuJoCo |
+|:-:|:-:|
+| ![SO-ARM-101 in Gazebo](assets/images/simulation/gazebo/gazebo_pick_place.png) | ![SO-ARM-101 in MuJoCo](assets/images/simulation/mujoco/mujoco_pick_place.png) |
+
+</div>
+
+| Simulator | Status | Docker |
+|-----------|--------|--------|
+| [Gazebo](simulation/gazebo/README.md) | Ready | `docker compose run gazebo` |
+| [MuJoCo](simulation/mujoco/README.md) | Ready | `docker compose run mujoco` |
+| [Webots](simulation/webots/README.md) | Unstable | `docker compose run webots` |
+| [CoppeliaSim](simulation/coppeliasim/README.md) | Not tested | External simulator |
+| [NVIDIA Isaac Sim](simulation/isaac_sim/README.md) | Not tested | External simulator |
+
+**Quick start (Docker):**
+
+```bash
+cd simulation/so_arm_101_description
+docker compose run gazebo    # or mujoco, webots
+```
+
+See the [Simulation Guide](simulation/README.md) for full setup, architecture details, and robot commanding.
+
+---
+
 ## 🤝 Contributing
 
 We welcome contributions! Please feel free to:
@@ -275,7 +314,7 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) 
 
 **Built for the robotics community by [Robonine](https://robonine.com)** 🤖
 
-**Questions? We're here to help!**  
+**Questions? We're here to help!**
 📩 Email: [hello@robonine.com](mailto:hello@robonine.com)
 
 </div>
