@@ -5,7 +5,7 @@
 
 # Standard library dependencies (included with Python)
 # - sys
-# - os  
+# - os
 # - time
 # - termios (Linux/Mac)
 # - msvcrt (Windows)
@@ -23,4 +23,4 @@
 # Development dependencies (optional):
 # pytest>=7.0.0          # For unit testing
 # black>=22.0.0          # Code formatting
-# flake8>=4.0.0          # Code linting 
+# flake8>=4.0.0          # Code linting

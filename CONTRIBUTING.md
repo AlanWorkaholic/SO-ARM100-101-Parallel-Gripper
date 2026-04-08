@@ -143,4 +143,4 @@ Feel free to open an issue or start a discussion if you have questions about con
 
 ---
 
-**Thank you for helping make this project better!** 🤝 
+**Thank you for helping make this project better!** 🤝

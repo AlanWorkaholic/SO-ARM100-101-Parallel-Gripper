@@ -14,7 +14,7 @@ A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robon
 
 ---
 
-**Questions? We're here to help!**  
+**Questions? We're here to help!**
 📩 Email: [hello@robonine.com](mailto:hello@robonine.com)
 
 </div>
@@ -314,7 +314,7 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) 
 
 **Built for the robotics community by [Robonine](https://robonine.com)** 🤖
 
-**Questions? We're here to help!**  
+**Questions? We're here to help!**
 📩 Email: [hello@robonine.com](mailto:hello@robonine.com)
 
 </div>
