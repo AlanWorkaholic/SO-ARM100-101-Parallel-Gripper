@@ -2,6 +2,18 @@
 
 ROS2 simulation support for the SO-ARM-101 robotic arm with parallel gripper. A single parameterized URDF drives 5 physics engines through one launch file.
 
+## Gazebo (Ignition Fortress)
+
+![SO-ARM-101 in Gazebo](../assets/images/simulation/gazebo/gazebo_pick_place.png)
+
+*SO-ARM-101 performing pick & place in Gazebo — the arm picks an object and places it on a shelf above.*
+
+## MuJoCo
+
+![SO-ARM-101 in MuJoCo](../assets/images/simulation/mujoco/mujoco_pick_place.png)
+
+*Same pick & place sequence running in MuJoCo with full physics simulation.*
+
 ## Simulator Status
 
 | Simulator | Status | Docker | Controller Manager |
