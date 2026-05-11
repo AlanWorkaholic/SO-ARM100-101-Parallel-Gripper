@@ -11,7 +11,7 @@ Lightweight 3D-printed end-effector designed by **Robonine Team** for the open-s
 ## Key Features
 
 - Open-source design
-- BOM cost for one gripper: ~$70
+- BOM cost for one gripper: ~$62
 - Can be printed during one cycle on a consumer-grade FDM 3D printer
 - Compatible with popular video cameras:
   - Orbbec Gemini 2
@@ -27,14 +27,14 @@ Lightweight 3D-printed end-effector designed by **Robonine Team** for the open-s
 
 ![Gripper dimensions — isometric view](../assets/images/specification/08-gripper-dimensions-3d.png)
 
-*Isometric view showing overall dimensions: 128 × 109 × 130.5 mm, full stroke 76 mm*
+*Isometric view showing overall dimensions: 128 × 109 × 130.5 mm, full stroke 84 mm*
 
 | Dimension | Value |
 |-----------|-------|
 | Width | 128 mm |
 | Depth | 130.5 mm |
 | Height | 109 mm |
-| Full stroke | 76 mm |
+| Full stroke | 84 mm |
 
 ---
 
@@ -56,11 +56,11 @@ Lightweight 3D-printed end-effector designed by **Robonine Team** for the open-s
 
 | Parameter | Follower Gripper |
 |-----------|------------------|
-| Assembly mass (PLA, 30% infill) | 250 g (excluding camera) |
-| Maximum gripping force | 150 N |
-| Maximum gripping speed | 30 mm/s |
-| Full stroke | 76 mm |
-| Repeatability | 0.1 mm |
+| Assembly mass (PLA, 30% infill) | 170 g |
+| Maximum gripping force | 120 N |
+| Maximum gripping speed | 14 mm/s |
+| Full stroke | 84 mm |
+| Repeatability | 0.5 mm |
 | DOF | 1 |
 
 ---
@@ -73,7 +73,7 @@ Lightweight 3D-printed end-effector designed by **Robonine Team** for the open-s
 |-----------|---------------|
 | Primary material | PETG / PLA |
 | Transmission | Rack and pinion |
-| Guides | Round stainless steel rods (Ø6 mm) |
+| Guides | Round aluminium/carbon tubes (Ø6 mm) |
 | Driver | Feetech servo actuator STS3215 |
 
 ### Servo Parameters (Feetech STS3215)
