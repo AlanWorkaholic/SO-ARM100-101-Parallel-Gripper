@@ -17,7 +17,7 @@
 
 | Article | Description | Qty | Price | Link |
 |---------|-------------|:---:|-------|------|
-| Round Aluminium Rod D6x125 mm | 1 | ~$11.99 (10pcs) | [Amazon]([https://www.amazon.com/Aluminum-Diameter-Helicopter-Precision-Machining/dp/B0C495BFV2) |
+| Round Aluminium Rod D6x125 mm | 1 | ~$11.99 (10pcs) | [Amazon](https://www.amazon.com/Aluminum-Diameter-Helicopter-Precision-Machining/dp/B0C495BFV2) |
 
 ## 3D-Printed Parts
 
@@ -63,10 +63,10 @@
 |----------|------------|
 | Electronics | ~$40.00 |
 | Bearings | ~$2.00 |
-| Rods | ~$5.56 |
-| 3D-Printed Parts | ~$16.00 |
+| Rods | ~$2.00 |
+| 3D-Printed Parts | ~$12.00 |
 | Fasteners | ~$27.00 |
-| **Total** | **~$113.00** |
+| **Total** | **~$83.00** |
 
 *\* Pro-rated from bulk pack prices*
 
