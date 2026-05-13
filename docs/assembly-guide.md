@@ -83,7 +83,7 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 
 ---
 
-## Step 6: Connection of rods and frame 
+## Step 6: Connection of rods and frame
 
 ![Connection of rods and main frame](../assets/images/assembly/frame-with-clamps.png)
 
