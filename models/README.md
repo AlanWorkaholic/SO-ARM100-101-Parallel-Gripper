@@ -2,13 +2,13 @@
 
 This folder contains STL files for the Follower Gripper assembly.
 
-## Complete Assembly (Preview)
+## Complete Assembly
 
 | File | Description | Compatible Printers |
 |------|-------------|---------------------|
-| `Follower gripper (140x140 bed size).STL` | Complete gripper assembly | Printers with bed size > 140×140mm |
+| `Follower gripper (165x165 bed size).STL` | Complete gripper parts kit | Printers with bed size > 165×165mm |
 
-### Compatible 3D Printers (140×140mm bed size)
+### Compatible 3D Printers
 
 - **Bambu Lab A1 mini** (180×180×180mm)
 - **Prusa MINI / MINI+** (180×180×180mm)
@@ -16,7 +16,7 @@ This folder contains STL files for the Follower Gripper assembly.
 - **Anycubic Kobra Neo** (220×220×250mm)
 - **Artillery Genius** (220×220×250mm)
 
-*Note: Any printer with bed size ≥140×140mm can print the complete assembly preview.*
+*Note: Any printer with bed size ≥165×165mm can print the complete assembly preview.*
 
 ## Individual Parts
 
@@ -24,12 +24,13 @@ Located in the `parts/` folder:
 
 | Part Number | File | Qty | Description |
 |-------------|------|:---:|-------------|
-| RB9.01.061.010 | `Main frame.STL` | 1 | Main structural frame |
-| RB9.01.061.020 | `Clamp.STL` | 2 | Finger clamps |
-| RB9.01.061.030 | `Gear rack.STL` | 2 | Gear racks for linear motion |
-| RB9.01.061.040 | `Gear for gripper.STL` | 1 | Drive gear |
 | RB9.01.060.074 | `Camera holder.STL` | 1 | Camera mounting bracket |
 | RB9.01.060.080 | `Holder.STL` | 1 | Mounting bracket without camera |
+| RB9.01.060.090 | `Camera spacer.STL` | 1 | Spacer for camera |
+| RB9.01.062.010 | `Main frame.STL` | 1 | Main structural frame |
+| RB9.01.062.020 | `Clamp.STL` | 2 | Finger clamps |
+| RB9.01.062.030 | `Gear rack.STL` | 2 | Gear racks for linear motion |
+| RB9.01.062.040 | `Gear.STL` | 1 | Drive gear |
 
 ## Print Settings
 

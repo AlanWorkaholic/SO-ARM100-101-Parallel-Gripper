@@ -12,7 +12,7 @@ Get your Follower Gripper for SO-ARM101 up and running!
 - [ ] All 3D printed parts (see [3D Models](../models/))
 - [ ] Electronic components (see [BOM](bom.md))
 - [ ] Mechanical components (bearings, rods, fasteners)
-- [ ] Tools: Phillips screwdriver, Hex keys M3 and M4
+- [ ] Tools: Phillips screwdriver PH1, Hex keys M2 (H1.5) and M4 (H2.5)
 
 ### Software
 - [ ] Python 3.6+ installed
@@ -25,10 +25,10 @@ Get your Follower Gripper for SO-ARM101 up and running!
 
 1. Download STL files from `models/parts/`
 2. Print with recommended settings:
-   - Layer height: 0.2mm (0.15mm for gears)
+   - Layer height: 0.2mm
    - Infill: 20% (frame/clamps), 30% (gears)
    - Material: PLA or PETG
-3. Remove supports and test-fit bearings
+3. Remove supports
 
 **Compatible 3D Printers** (180×180mm+ bed):
 - Bambu Lab A1 mini
@@ -37,12 +37,13 @@ Get your Follower Gripper for SO-ARM101 up and running!
 - Any printer with bed ≥180×180mm
 
 **Parts to print:**
-- 1x Main frame (RB9.01.061.010)
-- 2x Clamp (RB9.01.061.020)
-- 2x Gear rack (RB9.01.061.030)
-- 1x Gear for gripper (RB9.01.061.040)
+- 1x Main frame (RB9.01.062.010)
+- 2x Clamp (RB9.01.062.020)
+- 2x Gear rack (RB9.01.062.030)
+- 1x Gear (RB9.01.062.040)
 - 1x Camera holder (RB9.01.060.074)
 - 1x Holder (RB9.01.060.080)
+- 1x Camera Spacer (RB9.01.060.090)
 
 ---
 
@@ -54,12 +55,12 @@ Order parts from the [Bill of Materials](bom.md):
 |-----------|:---:|-----------|
 | Feetech STS3215 servo | 1 | ~$29 |
 | Bus Servo Adapter Board | 1 | ~$11 |
-| MF106ZZ bearings (10x6x3mm) | 2 | ~$5 |
-| LM6UU linear bearings | 4 | ~$9 |
-| Steel rods D6x125mm | 2 | ~$8 |
-| Fasteners (M3, M4 screws/nuts) | various | ~$3 |
+| MF106ZZ bearings (10x6x3mm) | 2 | ~$2 |
+| Aluminium/carbon tubes D6x1x125mm | 2 | ~$4 |
+| 3d printing PLA| 8 parts | ~$12 |
+| Fasteners (M2/M4 screws/nuts) | various | ~$3 |
 
-**Total estimated cost: ~$70** (excluding 3D printing)
+**Total estimated cost: ~$62**
 
 ---
 
@@ -67,15 +68,17 @@ Order parts from the [Bill of Materials](bom.md):
 
 Follow the detailed [Assembly Guide](assembly-guide.md):
 
-1. **Install linear bearings** in clamps (5 min)
-2. **Mount gear** to servo with set screws (5 min)
-3. **Attach servo** to main frame (5 min)
-4. **Install MF106ZZ bearings** on main frame (5 min)
-5. **Add rods and clamps** (5 min)
-6. **Attach gear racks** to clamps (5 min)
-7. **Insert servo cable** (2 min)
-8. **Add rigidity screws** M3x50 (3 min)
-9. **Attach to robot arm** (optional) (5 min)
+
+1. Insert servo cable
+2. Using Feetech software move servo to its minimal position (move the slider in the software to the left)
+3. Attach gear racks to clamps
+4. Inserts the rods into both clamps
+5. Install bearings on main frame and fix with srews
+6. Snap the rods into the frame
+7. Spread the clamps to the extreme positions on the left and right
+8. Insert servo and fix it with screws
+9. Attach Camera Spacer and UVC camera, fix with 4x screws and nuts M2 (optional)
+10. Mount to robot arm (optional)
 
 ---
 

@@ -4,135 +4,109 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 
 ## Required Tools
 
-- Phillips head screwdriver
-- Hex keys M3 and M4
+- Phillips head screwdriver PH1
+- Hex keys M2 (H1.5) and M4 (H2.5)
 
 ---
 
-## Step 1: Install Linear Bearings in Clamps
-
-![Clamp with linear bearings](../assets/images/assembly/01-clamp-with-linear-bearings.png)
-
-**Components needed:**
-- 2x Clamps (RB9.01.061.020)
-- 4x LM6UU Linear Bearings (6x12x19 mm)
-
-**Instructions:**
-1. Take the first clamp part
-2. Carefully press 2x LM6UU bearings into the designated bearing seats. If bearings fit in too easily, wrap some tape around them
-3. Ensure bearings are fully seated
-4. Repeat for the second clamp
-
----
-
-## Step 2: Install Gear on Servo
+## Step 1: Install Gear on Servo
 
 ![Servo with gear assembly](../assets/images/assembly/02-servo-with-gear-assembly.png)
 
 **Components needed:**
-- 1x Feetech STS3250 Servo
-- 1x Gear for Gripper (RB9.01.061.040)
+- 1x Feetech STS3215 Servo
+- 1x Gear  (RB9.01.062.040)
 - 1x Servo disk (from servo kit)
 - 1x Servo mounting screw M3x6 (from servo kit)
 - 4x Set Screw DIN 913 M3x4
 
 **Instructions:**
 1. Place Gear for Gripper on Servo disk and tighten 4x Set Screws M3x4 in the direction from Servo disk to Gear. Make sure that no gap appears between Disk and Gear when tightening the screws.
-2. Mount the gear assembly onto the servo output shaft
-3. Secure with the screw M3x6 provided in the servo kit
+2. Mount the gear assembly onto the servo output shaft.
+3. Secure with the screw M3x6 provided in the servo kit.
 
 ---
 
-## Step 3: Mount Servo on Main Frame
+## Step 2: Servo Positioning
 
-![Servo mounted on main frame](../assets/images/assembly/03-servo-mounted-on-main-frame.png)
+![Servo positioning](../assets/images/assembly/Feetech-Servo-Window.png)
 
 **Components needed:**
-- 1x Main Frame (RB9.01.061.010)
-- 1x Assembled servo with gear
-- 3x Self-tapping screws (from servo kit)
+- 1x Serial Bus Servo Board and Cables
 
-**Instructions:**
-1. Position the servo on the main frame and align mounting holes
-2. Secure the servo using 3x self-tapping screws from the servo kit
+**Instructions for Windows users:**
+1. Connect Servo to Serial Bus Servo Board, connect Board to PC by USB.
+2. Run FD.exe from [`software/python/`](../software/).
+3. Choose your COM port, select BaudRate 1 000 000, push buttons "Open" and after "Search".
+4. Below from the list select your servo.
+5. Check the box to enable torque on servo.
+6. Move the slider to the left.
 
 ---
 
-## Step 4: Install Bearings on Main Frame
+## Step 3: Clamps
 
-![Bearings installed on main frame](../assets/images/assembly/04-bearings-installed-on-main-frame.png)
+![Clamps](../assets/images/assembly/clamp+rack.png)
+
+**Components needed:**
+- 2x Clamps (RB9.01.062.020)
+- 2x Gear racks (RB9.01.062.030)
+
+**Instructions:**
+1. Attach gear racks to clamps.
+
+---
+
+## Step 4: Rods
+
+![Rods](../assets/images/assembly/rods+clamps.png)
+
+**Components needed:**
+- 2x Rods D6x125mm
+
+**Instructions:**
+1. Insert the rods into both clamps.
+
+---
+
+## Step 5: Install Bearings on Main Frame
+
+![Bearings installed on main frame](../assets/images/assembly/frame+bearings.png)
 
 **Components needed:**
 - 2x MF106ZZ Bearings (10x6x3 mm)
 - 2x M4x8 DIN 7991 screws
 
 **Instructions:**
-1. Insert the 2x MF106ZZ bearings into their designated positions on the main frame. Bearing flange should face up
-2. Secure each bearing with screw M4x8
+1. Insert the 2x MF106ZZ bearings into their designated positions on the main frame. Bearing flange should face up.
+2. Secure each bearing with screw M4x8.
 
 ---
 
-## Step 5: Install Rods and Clamps
+## Step 6: Connection of rods and frame
 
-![Rods and clamps installed](../assets/images/assembly/05-rods-and-clamps-installed.png)
-
-![Rods and clamps front view](../assets/images/assembly/05b-rods-and-clamps-front-view.png)
-
-**Components needed:**
-- 2x Stainless Steel Rods (6mm diameter, 125mm length)
-- 2x Assembled clamps (with LM6UU bearings)
-- 4x M3x20 DIN 7991 screws
-- 4x M3 DIN 934 nuts
+![Connection of rods and main frame](../assets/images/assembly/frame-with-clamps.png)
 
 **Instructions:**
-1. Insert the 2x steel rods through the one side of main frame
-2. Slide the 2x clamps onto the rods
-3. Press rods further through the second side of the main frame
-4. Secure rods in the main frame using 4x M3x20 screws and 4x M3 nuts
+1. Snap the rods into the frame.
+2. Spread the clamps to the extreme positions on the left and right.
 
 ---
 
-## Step 6: Attach Gear Racks
+## Step 7: Mount Servo on Main Frame
 
-![Gear racks top view](../assets/images/assembly/06-gear-racks-top-view.png)
+![Servo mounted on main frame](../assets/images/assembly/servo-on-frame.png)
 
 **Components needed:**
-- 2x Gear Racks (RB9.01.061.030)
-- 2x M3x8 DIN 7991 screws
+- 3x Self-tapping screws (from servo kit)
 
 **Instructions:**
-1. Position the gear racks on the back side of each clamp
-2. **Important**: Ensure clamps are symmetrically positioned from the main frame center
-3. The gear racks should engage properly with the drive gear
-4. Secure each gear rack with screw M3x8
+1. Position the servo on the main frame and align mounting holes.
+2. Secure the servo using 3x self-tapping screws from the servo kit.
 
 ---
 
-## Step 7: Insert Servo Cable
-
-![Servo cable installed](../assets/images/assembly/07-servo-cable-installed.png)
-
-**Components needed:**
-- Servo cable (from servo kit)
-
-**Instructions:**
-1. Insert cable so it will go straight down
-
----
-
-## Step 8: Insert Screws for Rigidity
-
-![Final assembly with rigidity screws](../assets/images/assembly/08-final-assembly-with-rigidity-screws.png)
-
-**Components needed:**
-- 4x M3x50 DIN 912 screws
-
-**Instructions:**
-1. From each side of the Main Frame screw 2x screws M3x50
-
----
-
-## Step 9: Gripper Holder Attachment
+## Step 8: Gripper Holder Attachment
 
 ![Gripper holder attachment](../assets/images/assembly/09-gripper-holder-attachment.png)
 
@@ -149,6 +123,21 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 
 ---
 
+## Step 9: Camera Attachment (optional)
+
+![Camera attachment](../assets/images/assembly/camera-attachment.png)
+
+**Components needed:**
+- 1x UVC Camera with mount holes at 28x28 mm
+- 1x Camera Spacer (RB9.01.060.090)
+- 4x M2x8 Screws
+- 4x M2 Nuts
+
+**Instructions:**
+1. Put 4x nuts M2 from the back side of Camera Holder.
+2. Put Camera Spacer and Camera from the front side and fix with 4x screws M2x8.
+
+---
 ## Assembly Complete!
 
 ![Assembled SO-ARM101 with Follower Gripper](../assets/images/specification/07-gripper-on-so-arm100.jpg)
