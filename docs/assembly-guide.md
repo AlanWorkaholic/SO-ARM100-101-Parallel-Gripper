@@ -36,7 +36,7 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 
 **Instructions for Windows users:**
 1. Connect Servo to Serial Bus Servo Board, connect Board to PC by USB.
-2. Run FD.exe from [`software/python/`](software/).
+2. Run FD.exe from [`software/python/`](../software/).
 3. Choose your COM port, select BaudRate 1 000 000, push buttons "Open" and after "Search".
 4. Below from the list select your servo.
 5. Check the box to enable torque on servo.
