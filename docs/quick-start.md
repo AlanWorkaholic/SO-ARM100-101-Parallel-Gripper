@@ -2,9 +2,9 @@
 
 Get your Follower Gripper for SO-ARM101 up and running!
 
-[![SO-ARM101 Parallel Gripper](../assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.png)](https://youtube.com/shorts/eL2W2aHTV8M)
+[![SO-ARM101 Parallel Gripper](../assets/images/SO-ARM-101-Parallel-Gripper.jpg)](https://www.youtube.com/shorts/SWWvnGMD_M8)
 
-*Click the image to [watch the gripper in action](https://youtube.com/shorts/eL2W2aHTV8M)!*
+*Click the image to [watch the gripper in action](https://www.youtube.com/shorts/SWWvnGMD_M8)!*
 
 ## What You'll Need
 
