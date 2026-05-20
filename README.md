@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![SO-ARM101 Parallel Gripper](assets/images/SO-ARM-101-Parallel-Gripper.jpg)](https://www.youtube.com/shorts/SWWvnGMD_M8)
+[![SO-ARM101 Parallel Gripper](assets/images/SO-ARM-101-Parallel-Gripper.png)](https://www.youtube.com/shorts/SWWvnGMD_M8)
 
 **🎥 [Watch the gripper in action!](https://www.youtube.com/shorts/SWWvnGMD_M8)**
 
