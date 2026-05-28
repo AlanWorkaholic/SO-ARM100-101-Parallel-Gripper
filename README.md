@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[![SO-ARM101 Parallel Gripper](assets/images/SO-ARM-101-Parallel-Gripper.png)](https://www.youtube.com/shorts/SWWvnGMD_M8)
+[![SO-ARM101 Parallel Gripper](assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.jpg)](https://youtube.com/shorts/bSyXjgNGXZk)
 
-**🎥 [Watch the gripper in action!](https://www.youtube.com/shorts/SWWvnGMD_M8)**
+**🎥 [Watch the gripper in action!](https://youtube.com/shorts/bSyXjgNGXZk)**
 
 A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robonine.com)** for the open-source SO-ARM100/101 robotic platform.
 
