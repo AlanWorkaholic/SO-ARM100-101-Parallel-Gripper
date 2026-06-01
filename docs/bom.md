@@ -25,6 +25,7 @@
 | | Round Steel Rod D6x125 mm | 1 | ~$11.89 (5pcs) | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9) |
 | | Round Steel Rod D6x125 mm | 2 | ~$13.67 (1pcs) | [Amazon](https://www.amazon.com/Stainless-Diameter-2mm-14mm-Linear-Ground/dp/B0F1ZYYZ89) |
 
+*You need just 1 type from this list, 2pcs with length 125mm*
 
 ## 3D-Printed Parts
 
