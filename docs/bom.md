@@ -17,7 +17,15 @@
 
 | Article | Description | Qty | Price | Link |
 |---------|-------------|:---:|-------|------|
-| | Round Aluminium Rod D6x125 mm | 1 | ~$11.99 (10pcs) | [Amazon](https://www.amazon.com/Aluminum-Diameter-Helicopter-Precision-Machining/dp/B0C495BFV2) |
+| | Carbon Fiber Tube 6x4x200mm | 1 | ~$5.29 (2pcs) | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL) |
+| | Carbon Fiber Tube 6x4x200mm | 1 | ~$6.99 (3pcs) | [Amazon](https://www.amazon.com/MECCANIXITY-Surface-Airplane-Multicopter-Quadcopter/dp/B0CZDFS38K) |
+| | Round Aluminium Tube 6x3x250 mm | 1 | ~$5.79 (2pcs) | [Amazon](https://www.amazon.com/Aluminum-Seamless-Straight-Industry-Decoration/dp/B0DG28M691) |
+| | Round Aluminium Tube 6x4x250 mm | 1 | ~$9.39 (4pcs) | [Amazon](https://www.amazon.com/uxcell-Aluminum-Round-Length-Tubing/dp/B0BFF95FWJ) |
+| | Round Aluminium Rod D6x300 mm | 1 | ~$11.99 (10pcs) | [Amazon](https://www.amazon.com/Aluminum-Diameter-Helicopter-Precision-Machining/dp/B0C495BFV2) |
+| | Round Steel Rod D6x125 mm | 1 | ~$11.89 (5pcs) | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9) |
+| | Round Steel Rod D6x125 mm | 2 | ~$13.67 (1pcs) | [Amazon](https://www.amazon.com/Stainless-Diameter-2mm-14mm-Linear-Ground/dp/B0F1ZYYZ89) |
+
+*You need just 1 type from this list, 2pcs with length 125mm*
 
 ## 3D-Printed Parts
 
