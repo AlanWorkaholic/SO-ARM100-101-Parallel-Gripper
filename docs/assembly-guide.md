@@ -65,7 +65,7 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 - 2x Rods D6x125mm
 
 **Instructions:**
-1. Insert the rods into both clamps.
+1. Insert the rods into both clamps. If you ordered rods/tubes longer than 125 mm you need to cut them to this length.
 
 ---
 
