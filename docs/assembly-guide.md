@@ -41,12 +41,12 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 4. Below from the list select your servo.
 5. Check the box to enable torque on servo.
 6. Move the slider to the left.
-   
+
 ![Max torque limit](../assets/images/assembly/max-torque-window.png)
 
 7. Switch the window to a tab "Programming".
 8. Choose parameter "Max Torque Limit", set it to 500 ans press "Save".
- 
+
 ---
 
 ## Step 3: Clamps
