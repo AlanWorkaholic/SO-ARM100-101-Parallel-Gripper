@@ -27,6 +27,7 @@ Located in the `parts/` folder:
 | RB9.01.060.074 | `Camera holder.STL` | 1 | Camera mounting bracket |
 | RB9.01.060.080 | `Holder.STL` | 1 | Mounting bracket without camera |
 | RB9.01.060.090 | `Camera spacer.STL` | 1 | Spacer for camera |
+| RB9.01.060.110 | `D405 holder.STL` | 1 | Holder for D405 camera |
 | RB9.01.062.010 | `Main frame.STL` | 1 | Main structural frame |
 | RB9.01.062.020 | `Clamp.STL` | 2 | Finger clamps |
 | RB9.01.062.030 | `Gear rack.STL` | 2 | Gear racks for linear motion |
